@@ -1,33 +1,29 @@
-<!--
-Sync Impact Report
+---
+id: 2
+title: Update Constitution for Hackathon Phase II
+stage: constitution
+date: 2026-01-14
+surface: agent
+model: gemini
+feature: none
+branch: 1-todo-console-app
+user: {{USER}}
+command: /sp.constitution
+labels: [constitution, hackathon-phase-2]
+links:
+  spec: null
+  ticket: null
+  adr: null
+  pr: null
+files:
+- .specify/memory/constitution.md
+tests:
+  - 
+---
 
-- Version change: 2.0.0 -> 3.0.0
-- List of modified principles:
-    - All principles redefined based on user-provided project context for Phase II.
-- Added sections:
-    - CORE OBJECTIVE
-    - NON-NEGOTIABLE RULES
-    - PHASE II SCOPE (STRICT)
-    - AUTHENTICATION CONSTITUTION
-    - API CONSTITUTION
-    - DATABASE CONSTITUTION
-    - FRONTEND CONSTITUTION
-    - SPEC-KIT COMPLIANCE
-    - EVALUATION ALIGNMENT
-    - FINAL DIRECTIVE
-- Removed sections:
-    - Core Principles
-    - Application Requirements & Data Constraints
-    - Specification Process & Prohibited Actions
-    - Governance
-- Templates requiring updates:
-    - ✅ .specify/templates/plan-template.md (no changes needed)
-    - ✅ .specify/templates/spec-template.md (no changes needed)
-    - ✅ .specify/templates/tasks-template.md (no changes needed)
-- Follow-up TODOs:
-    - None
--->
-# SYSTEM CONSTITUTION — HACKATHON II (PHASE II)
+## Prompt
+
+/sp.constitution SYSTEM CONSTITUTION — HACKATHON II (PHASE II)
 
 You are an expert AI Software Architect and Agentic Developer working under a strict
 Spec-Driven Development workflow using Spec-Kit Plus.
@@ -151,3 +147,22 @@ Gemini must always:
 • Then implement ONLY what is specified
 
 Any deviation from this constitution is considered a failure of Phase II compliance.
+
+## Response snapshot
+
+Updated the project constitution to version 3.0.0 for Hackathon Phase II.
+
+## Outcome
+
+- ✅ Impact: Medium - Updated the core principles of the project.
+- 🧪 Tests: N/A
+- 📁 Files: 1 file updated
+- 🔁 Next prompts: N/A
+- 🧠 Reflection: The constitution was updated successfully.
+
+## Evaluation notes (flywheel)
+
+- Failure modes observed: N/A
+- Graders run and results (PASS/FAIL): PASS
+- Prompt variant (if applicable): N/A
+- Next experiment (if applicable): N/A
